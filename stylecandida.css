@@ -1,0 +1,142 @@
+@font-face {
+    font-family: Adele;
+    src: url(text/Adele.otf)
+}
+
+/* Header */
+.header {
+    background-color: #2A3B19; 
+    color: #32620E; 
+    padding: 20px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+.header img {
+    width: 40px; 
+    height: auto; 
+    margin-right: 20px;
+}
+.header ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+    display: flex; 
+    justify-content: center;
+}
+.header li {
+    margin-right: 20px; 
+    color: #32620E;
+}
+/* Header Hovereffekt */
+.header li:hover{
+    transition: 0.5s;
+    color: #EBF094;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Body */
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #2A3B19;
+}
+
+/* Artikel */
+.wrapper{
+    margin: 150px auto;
+    width: 40%;
+    margin-top: 6%;
+}
+
+/* Titel*/
+h1{
+    position: relative;
+    max-width: 500px;
+    margin: 10px auto;
+    text-align: center;
+    color: #F4B3C2;
+    font-size: 45px;
+    font-family: Adele;
+    letter-spacing: 15px;
+}
+/* Billede */
+.yeastimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    width: 27%;
+ }
+/* Tekst */
+ p{
+     font-size: 16px;
+     color: #F3FADC;
+     line-height: 23px;
+}
+h2{
+    font-size: 18px;
+    margin-top: 50px;
+    color: #F6D3DB;
+}
+ul{
+    font-size: 16px;
+    color: #F3FADC; 
+    line-height: 23px;
+}
+.text-box li{
+    margin-bottom: 20px;
+    line-height: 23px;
+}
+
+/* Hænder */
+.haandnedad{
+    float: right;
+    width: 15%;
+    padding-right: 5%;
+    padding-top: 6%;
+}
+
+.haandopad{
+    float: left;
+    width: 14%;
+    padding-top: 6%;
+    padding-left: 5%;
+}
+
+/* Footer */
+footer{
+    background-color: #394f24;
+    padding: 70px 30px 20px 0px;
+}
+.footercontainer{
+    width: 100%;
+}
+.socialicons{
+    display: flex;
+    justify-content: center;
+}
+.socialicons img{
+    width: 40px;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 50%;
+}
+.footerbottom{
+    padding: 20px;
+    color: #598D39;
+    text-align: center;
+}
+.copyright{
+    color: #598D39;
+}
+
+/* Hover effect social ikoner */
+.socialicons img:hover{
+background-color: #EBF094;
+transition: 0.5s;
+}

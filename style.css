@@ -1,0 +1,285 @@
+@font-face {
+    font-family: Adele;
+    src: url(text/Adele.otf)
+}
+
+/* Header */
+.header {
+    background-color: #2A3B19; 
+    color: #32620E; 
+    padding: 20px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+.header img {
+    width: 40px; 
+    height: auto; 
+    margin-right: 20px;
+}
+.header ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+    display: flex; 
+    justify-content: center;
+}
+.header li {
+    margin-right: 20px; 
+}
+
+/* Header Hovereffekt */
+.header li:hover{
+    transition: 0.5s;
+    color: #EBF094;
+}
+a{
+    text-decoration: none;
+    color: #32620E;
+}
+
+/* Body */
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #2A3B19;
+}
+
+/* Spirituel Studerende Titel, undertitel og billede*/
+.container1{
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    margin: 0;
+    padding: 0;
+}
+
+.forside-billede{
+    float: right;
+    padding-right: 20%;
+    padding-left: 50%;
+}
+  
+h1{
+    font-size: 100px;
+    color: #588D3A;
+    padding-left: 30%;
+    padding-bottom: 0%;
+    font-family: Adele;
+    letter-spacing: 20px;
+    margin-bottom: 0%;
+   
+}
+
+h2{
+    color: #588D3A;
+    padding-left: 30%;
+    font-size: 22px;
+    padding-top: 0%;
+    margin-top: 0%;
+}
+
+/* Hænder */
+.haandnedad{
+    float: right;
+    width: 15%;
+    padding-right: 5%;
+    padding-top: 4%;
+}
+
+.haandopad{
+    float: left;
+    width: 14%;
+    padding-top: 40%;
+    padding-left: 5%;
+}
+
+/* Bokse med katagorier */
+.bokse{
+    padding: 5px;
+    max-width: 960px;
+    width: 95%;
+    margin: 20px auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.boks{
+    flex: 1;
+    margin: 15px;
+    padding: 15px;
+    background: #394f24;
+    text-align: center;
+    transition: 0.3s;
+    border-radius: 15px;
+}
+.candidatitel{
+    color: #EBF094;
+    font-size: 30px;
+    font-family: Adele;
+    letter-spacing: 4px;
+}
+.meditationtitel{
+    color: #EBF094;
+    font-size: 30px;
+    font-family: Adele;
+    letter-spacing: 4px;
+}
+.minimalismetitel{
+    color:#EBF094;
+    font-size: 30px;
+    font-family: Adele;
+    letter-spacing: 4px;
+}
+.katagoritekst{
+    color: #F3FADC;
+    font-size: 19px;
+    
+}
+.knap{
+    padding: 15px;
+    margin: 10px;
+    font-size: 15px;
+    background-color: #2A3B19;
+    color: #EBF094;
+    border-radius: 20px;
+    border: 0px;
+}
+/* Hovereffekt*/
+.knap:hover{
+    background-color: #EBF094;
+    transition: 0.5s;
+    color: #56823b;
+}
+
+
+/* Denne uge*/
+  .denneuge{
+    position: relative;
+    max-width: 100%;
+    margin: 100px auto;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: Adele;
+    letter-spacing: 12px;
+    padding: 1px;
+    background-color: #294b0e;
+  }  
+
+/* Artiker*/
+.artikler{
+    background-color: #2A3B19;
+    padding-bottom: 30px;
+}
+
+/* Artikel 1 - Candida Kur*/
+.yeastimg{
+   max-width: 320px;
+   float: left;
+   margin-right: 20px;
+}
+.text-box1 h4{
+    color: #F4B3C2;
+    font-size: 42px;
+    margin: 1px;
+    font-family: Adele;
+    letter-spacing: 20px;
+}
+.text-box1 p{
+    font-size: 16px;
+    color: #F3FADC;
+}
+.wrapper1{
+    margin: 150px auto;
+    width: 40%;
+}
+
+/* Artikel 2 - Hvad er meditation */
+.meditationimg{
+    max-width: 320px;
+    float: right;
+    margin-left: 20px;
+ }
+ .text-box2 h4{
+     color: #7ED957;
+     font-size: 42px;
+     margin: 1px;
+     font-family: Adele;
+     letter-spacing: 20px;
+ }
+ .text-box2 p{
+     font-size: 16px;
+     margin: 0;
+     color: #F3FADC;
+ }
+ .wrapper2{
+    margin: 150px auto;
+    width: 40%;
+}
+
+/* Artikel 3 - Minimalisme */
+.lotusimg{
+    max-width: 320px;
+    float: left;
+    margin-right: 20px;
+ }
+
+ .text-box3{
+     color: #FFFFFF;
+ }
+ .text-box3 h4{
+     color: #E2B808;
+     font-size: 42px;
+     font-family: Adele;
+     letter-spacing: 20px;
+     margin: 1px;
+ }
+ .text-box3 p{
+     font-size: 16px;
+     margin: 0;
+ }
+
+ .wrapper3{
+    margin: 150px auto;
+    width: 40%;
+}
+
+/* Footer */
+footer{
+    background-color: #394f24;
+    padding: 70px 30px 20px 0px;
+}
+.footercontainer{
+    width: 100%;
+}
+.socialicons{
+    display: flex;
+    justify-content: center;
+}
+.socialicons img{
+    width: 40px;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 50%;
+}
+.footerbottom{
+    padding: 20px;
+    color: #598D39;
+    text-align: center;
+}
+.copyright{
+    color: #598D39;
+}
+
+/* Hover effect social ikoner */
+.socialicons img:hover{
+background-color: #EBF094;
+transition: 0.5s;
+}
+
+
+
+
